@@ -4,7 +4,7 @@
         "model": "happyhourscourapi.favorite",
         "fields": {
             "customer": 1,
-            "happy-hour": 5
+            "happy_hour": 5
         }
     },
     {
@@ -12,7 +12,7 @@
         "model": "happyhourscourapi.favorite",
         "fields": {
             "customer": 1,
-            "happy-hour": 13
+            "happy_hour": 13
         }
     },
     {
@@ -20,7 +20,7 @@
         "model": "happyhourscourapi.favorite",
         "fields": {
             "customer": 2,
-            "happy-hour": 10
+            "happy_hour": 10
         }
     }
 ]

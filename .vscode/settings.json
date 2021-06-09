@@ -2,5 +2,13 @@
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
         "--django-settings-module=happyhourscour.settings",
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "HappyHourScour",
+            "database": "db.sqlite3"
+        }
     ]
 }
