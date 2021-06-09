@@ -1,0 +1,128 @@
+[
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 1,
+        "fields": {
+            "happy_hour": 1,
+            "start_time": "3:00",
+            "end_time": "6:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 2,
+        "fields": {
+            "happy_hour": 2,
+            "start_time": "2:00",
+            "end_time": "7:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 3,
+        "fields": {
+            "happy_hour": 3,
+            "start_time": "4:00",
+            "end_time": "6:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 4,
+        "fields": {
+            "happy_hour": 4,
+            "start_time": "5:00",
+            "end_time": "6:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 5,
+        "fields": {
+            "happy_hour": 5,
+            "start_time": "5:00",
+            "end_time": "7:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 6,
+        "fields": {
+            "happy_hour": 6,
+            "start_time": "4:00",
+            "end_time": "6:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 7,
+        "fields": {
+            "happy_hour": 7,
+            "start_time": "4:30",
+            "end_time": "6:30"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 8,
+        "fields": {
+            "happy_hour": 8,
+            "start_time": "5:00",
+            "end_time": "6:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 9,
+        "fields": {
+            "happy_hour": 9,
+            "start_time": "5:00",
+            "end_time": "6:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 10,
+        "fields": {
+            "happy_hour": 10,
+            "start_time": "4:00",
+            "end_time": "6:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 11,
+        "fields": {
+            "happy_hour": 10,
+            "start_time": "5:00",
+            "end_time": "7:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 12,
+        "fields": {
+            "happy_hour": 12,
+            "start_time": "12:00",
+            "end_time": "12:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 13,
+        "fields": {
+            "happy_hour": 13,
+            "start_time": "12:00",
+            "end_time": "8:00"
+        }
+    },
+    {
+        "model": "happyhourscourapi.time",
+        "pk": 14,
+        "fields": {
+            "happy_hour": 14,
+            "start_time": "4:00",
+            "end_time": "8:00"
+        }
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "pk": 1,
+        "model": "happyhourscourapi.favorite",
+        "fields": {
+            "customer": 1,
+            "happy_hour": 5
+        }
+    },
+    {
+        "pk": 2,
+        "model": "happyhourscourapi.favorite",
+        "fields": {
+            "customer": 1,
+            "happy_hour": 13
+        }
+    },
+    {
+        "pk": 3,
+        "model": "happyhourscourapi.favorite",
+        "fields": {
+            "customer": 2,
+            "happy_hour": 10
+        }
+    }
+]

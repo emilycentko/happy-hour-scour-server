@@ -1,0 +1,51 @@
+[
+    {
+        "model": "happyhourscourapi.weekday",
+        "pk": 1,
+        "fields": {
+            "day": "Monday"
+        }
+    },
+    {
+        "model": "happyhourscourapi.weekday",
+        "pk": 2,
+        "fields": {
+            "day": "Tuesday"
+        }
+    },
+    {
+        "model": "happyhourscourapi.weekday",
+        "pk": 3,
+        "fields": {
+            "day": "Wednesday"
+        }
+    },
+    {
+        "model": "happyhourscourapi.weekday",
+        "pk": 4,
+        "fields": {
+            "day": "Thursday"
+        }
+    },
+    {
+        "model": "happyhourscourapi.weekday",
+        "pk": 5,
+        "fields": {
+            "day": "Friday"
+        }
+    },
+    {
+        "model": "happyhourscourapi.weekday",
+        "pk": 6,
+        "fields": {
+            "day": "Saturday"
+        }
+    },
+    {
+        "model": "happyhourscourapi.weekday",
+        "pk": 7,
+        "fields": {
+            "day": "Sunday"
+        }
+    }
+]

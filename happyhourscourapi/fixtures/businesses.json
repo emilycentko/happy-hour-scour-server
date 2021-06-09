@@ -1,0 +1,142 @@
+[
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 1,
+        "fields": {
+            "name": "M.L. Rose (Melrose)",
+            "business_type": 3,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 2,
+        "fields": {
+            "name": "Two Bits",
+            "business_type": 3,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 3,
+        "fields": {
+            "name": "Two Ten Jack",
+            "business_type": 2,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 4,
+        "fields": {
+            "name": "Husk",
+            "business_type": 2,
+            "patio": false,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 5,
+        "fields": {
+            "name": "Sinema",
+            "business_type": 2,
+            "patio": false,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 6,
+        "fields": {
+            "name": "Cafe Roze",
+            "business_type": 2,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 7,
+        "fields": {
+            "name": "Jane's Hideaway",
+            "business_type": 3,
+            "patio": false,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 8,
+        "fields": {
+            "name": "Chaatable Indian Street Food",
+            "business_type": 2,
+            "patio": false,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 9,
+        "fields": {
+            "name": "The Treehouse",
+            "business_type": 3,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 10,
+        "fields": {
+            "name": "Avo",
+            "business_type": 2,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 11,
+        "fields": {
+            "name": "Otaku Ramen (Gulch)",
+            "business_type": 2,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 12,
+        "fields": {
+            "name": "Vinyl Tap",
+            "business_type": 1,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 13,
+        "fields": {
+            "name": "Duke's",
+            "business_type": 3,
+            "patio": true,
+            "trivia": false
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 14,
+        "fields": {
+            "name": "Rosemary & Beauty Queen",
+            "business_type": 1,
+            "patio": true,
+            "trivia": false
+        }
+    }
+]

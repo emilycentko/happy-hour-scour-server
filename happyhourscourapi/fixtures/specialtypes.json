@@ -1,0 +1,23 @@
+[
+    {
+        "model": "happyhourscourapi.specialtype",
+        "pk": 1,
+        "fields": {
+            "type": "Drinks"
+        }
+    },
+    {
+        "model": "happyhourscourapi.specialtype",
+        "pk": 2,
+        "fields": {
+            "type": "Food"
+        }
+    },
+    {
+        "model": "happyhourscourapi.specialtype",
+        "pk": 3,
+        "fields": {
+            "type": "Food & Drinks"
+        }
+    }
+]
