@@ -1,0 +1,18 @@
+[
+    {
+        "model": "happyhourscourapi.customer",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "bio": "I appreciate some good pints and food!"
+        }
+    },
+    {
+        "model": "happyhourscourapi.customer",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "bio": "Happy hour is basically second breakfast."
+        }
+    }
+]

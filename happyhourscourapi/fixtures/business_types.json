@@ -1,0 +1,30 @@
+[
+    {
+        "model": "happyhourscourapi.businesstype",
+        "pk": 1,
+        "fields": {
+            "type": "Bar"
+        }
+    },
+    {
+        "model": "happyhourscourapi.businesstype",
+        "pk": 2,
+        "fields": {
+            "type": "Restaurant"
+        }
+    },
+    {
+        "model": "happyhourscourapi.businesstype",
+        "pk": 3,
+        "fields": {
+            "type": "Bar/Restaurant"
+        }
+    },
+    {
+        "model": "happyhourscourapi.businesstype",
+        "pk": 4,
+        "fields": {
+            "type": "Brewery"
+        }
+    }
+]
