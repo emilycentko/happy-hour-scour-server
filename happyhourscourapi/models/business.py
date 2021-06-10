@@ -7,3 +7,4 @@ class Business(models.Model):
     patio = models.BooleanField(default=False)
     location = models.CharField(max_length=50)
     trivia = models.BooleanField(default=False)
+    image = models.ImageField()
