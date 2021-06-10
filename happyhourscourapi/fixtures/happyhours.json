@@ -6,7 +6,8 @@
             "business": 1,
             "special_type": 3,
             "weekday": 2,
-            "description": "Happy hour from 3:00pm to 6:00pm includes $1 off appetizers, $1 off beer, $1 off wine, and $1 off liquor."
+            "description": "$1 off appetizers, $1 off beer, $1 off wine, and $1 off liquor",
+            "image": null
         }
     },
     {
@@ -16,7 +17,8 @@
             "business": 2,
             "special_type": 3,
             "weekday": 3,
-            "description": "Happy hour from 2:00pm to 7:00pm includes $5 wells, $4 craft drafts, $3 domestic drafts, $2 PBR 12oz can, and $6 chicken quesadilla."
+            "description": "$5 wells, $4 craft drafts, $3 domestic drafts, $2 PBR 12oz can, and $6 chicken quesadilla",
+            "image": null
         }
     },
     {
@@ -26,7 +28,8 @@
             "business": 3,
             "special_type": 3,
             "weekday": 2,
-            "description": "Happy hour from 4:00pm to 6:00pm (at the bar only) includes 2-for-1 Kirin, $6 house red wine, $6 house white wine, $5 house cold sake, $2 off all tap cocktails, $3 steamed edamame, $5 spicy tuna & crispy rice."
+            "description": "Aat the bar only: 2-for-1 Kirin, $6 house red wine, $6 house white wine, $5 house cold sake, $2 off all tap cocktails, $3 steamed edamame, $5 spicy tuna & crispy rice",
+            "image": null
         }
     },
     {
@@ -36,7 +39,8 @@
             "business": 4,
             "special_type": 3,
             "weekday": 2,
-            "description": "Happy hour from 5:00pm to 6:00pm includes seasonal specials (subject to change). Menu items have included $9 Husk Punch, $10 Husk Old Fashioned cocktails, $5 Avondale 'Mosey' Lager, $10 hickory-smoked wings, $9 pimento cheese with Benne wafers, and a $15 Husk cheeseburger."
+            "description": "Seasonal specials (subject to change). Menu items have included $9 Husk Punch, $10 Husk Old Fashioned cocktails, $5 Avondale 'Mosey' Lager, $10 hickory-smoked wings, $9 pimento cheese with Benne wafers, and a $15 Husk cheeseburger.",
+            "image": null
         }
     },
     {
@@ -46,7 +50,8 @@
             "business": 5,
             "special_type": 1,
             "weekday": 3,
-            "description": "Happy hour from 5:00pm to 7:00pm includes $8-$9 classic cocktails, $6 select house wines, $5 highlighted draft beers."
+            "description": "$8-$9 classic cocktails, $6 select house wines, $5 highlighted draft beers",
+            "image": null
         }
     },
     {
@@ -56,7 +61,8 @@
             "business": 6,
             "special_type": 3,
             "weekday": 3,
-            "description": "Happy hour from 4:00pm to 6:00pm includes $8 martinis, $5 wines, and $1.50-$5 select bites."
+            "description": "Happy hour from 4:00pm to 6:00pm includes $8 martinis, $5 wines, and $1.50-$5 select bites.",
+            "image": null
         }
     },
     {
@@ -66,7 +72,8 @@
             "business": 7,
             "special_type": 3,
             "weekday": 3,
-            "description": "Happy hour from 4:30pm to 6:30pm includes $6 Tennessee Whiskey of the day, $7 classic cocktails, $9 draft beer and well shot, and $5-$7 appetizer specials."
+            "description": "$6 Tennessee Whiskey of the day, $7 classic cocktails, $9 draft beer and well shot, and $5-$7 appetizer specials",
+            "image": null
         }
     },
     {
@@ -76,7 +83,8 @@
             "business": 8,
             "special_type": 3,
             "weekday": 4,
-            "description": "Happy hour from 5:00pm to 6:00pm includes $6 cocktails, $6 house wines, $5 drafts, and $1-$7 select bites."
+            "description": "$6 cocktails, $6 house wines, $5 drafts, and $1-$7 select bites",
+            "image": null
         }
     },
     {
@@ -86,7 +94,8 @@
             "business": 9,
             "special_type": 1,
             "weekday": 4,
-            "description": "Happy hour from 5:00pm to 6:00pm includes $5 house wines, $5 draft beer, and 2-for-1 Busch Light."
+            "description": "$5 house wines, $5 draft beer, and 2-for-1 Busch Light",
+            "image": null
         }
     },
     {
@@ -96,7 +105,8 @@
             "business": 10,
             "special_type": 3,
             "weekday": 3,
-            "description": "Happy hour from 4:00pm to 6:00pm includes $2 off beer, $2 off wine, $8 select cocktails, and $3-$7 select bites"
+            "description": "$2 off beer, $2 off wine, $8 select cocktails, and $3-$7 select bites",
+            "image": null
         }
     },
     {
@@ -106,7 +116,8 @@
             "business": 11,
             "special_type": 3,
             "weekday": 4,
-            "description": "Happy hour from 5:00pm to 7:00pm includes $8 Sapporo + hot chicken bun or pork bun."
+            "description": "$8 Sapporo + hot chicken bun or pork bun",
+            "image": null
         }
     },
     {
@@ -116,7 +127,8 @@
             "business": 12,
             "special_type": 1,
             "weekday": 7,
-            "description": "Happy hour all day includes $1 off draft beers and $5 well drinks."
+            "description": "$1 off draft beers and $5 well drinks",
+            "image": null
         }
     },
     {
@@ -126,7 +138,8 @@
             "business": 13,
             "special_type": 1,
             "weekday": 1,
-            "description": "Happy hour noon until 8:00 pm.  All draft beers $3, all well drinks $4."
+            "description": "All draft beers $3, all well drinks $4",
+            "image": null
         }
     },
     {
@@ -136,7 +149,8 @@
             "business": 14,
             "special_type": 1,
             "weekday": 7,
-            "description": "Happy hour 4:00 pm-8:00 pm includes 2 for 1 beers and well drinks and 1/2 off bottles of wine."
+            "description": "2 for 1 beers and well drinks and 1/2 off bottles of wine",
+            "image": null
         }
     }
 ]

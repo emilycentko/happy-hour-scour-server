@@ -6,7 +6,8 @@
             "name": "M.L. Rose (Melrose)",
             "business_type": 3,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -16,7 +17,8 @@
             "name": "Two Bits",
             "business_type": 3,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -26,7 +28,8 @@
             "name": "Two Ten Jack",
             "business_type": 2,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -36,7 +39,8 @@
             "name": "Husk",
             "business_type": 2,
             "patio": false,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -46,7 +50,8 @@
             "name": "Sinema",
             "business_type": 2,
             "patio": false,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -66,7 +71,8 @@
             "name": "Jane's Hideaway",
             "business_type": 3,
             "patio": false,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -76,7 +82,8 @@
             "name": "Chaatable Indian Street Food",
             "business_type": 2,
             "patio": false,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -86,7 +93,8 @@
             "name": "The Treehouse",
             "business_type": 3,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -96,7 +104,8 @@
             "name": "Avo",
             "business_type": 2,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -106,7 +115,8 @@
             "name": "Otaku Ramen (Gulch)",
             "business_type": 2,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -116,7 +126,8 @@
             "name": "Vinyl Tap",
             "business_type": 1,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -126,7 +137,8 @@
             "name": "Duke's",
             "business_type": 3,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     },
     {
@@ -136,7 +148,8 @@
             "name": "Rosemary & Beauty Queen",
             "business_type": 1,
             "patio": true,
-            "trivia": false
+            "trivia": false,
+            "image": ""
         }
     }
 ]
