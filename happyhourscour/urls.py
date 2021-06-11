@@ -6,6 +6,7 @@ from happyhourscourapi.views import register_user, login_user
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'happyhours', HappyHourView, 'happyhour')
+router.register(r'monday', HappyHourView, 'happyhour')
 
 urlpatterns = [
     path('', include(router.urls)),

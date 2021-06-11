@@ -5,13 +5,14 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from rest_framework import status
-from happyhourscourapi.models import HappyHour, Customer
+from happyhourscourapi.models import HappyHour, Customer, WeekDay
 
 
 class HappyHourView(ViewSet):
 
     def list(self, request):
 
+        
         happy_hours = HappyHour.objects.all()
 
         special_type = self.request.query_params.get('type', None)
