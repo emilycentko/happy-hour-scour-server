@@ -6,18 +6,29 @@ from rest_framework.response import Response
 from rest_framework import serializers
 from rest_framework import status
 from happyhourscourapi.models import HappyHour, Customer, WeekDay
+from datetime import datetime as date
 
 
 class HappyHourView(ViewSet):
 
     def list(self, request):
 
-        
         happy_hours = HappyHour.objects.all()
 
-        special_type = self.request.query_params.get('type', None)
-        if special_type is not None:
-            happy_hours = happy_hours.filter(special_type__id=special_type)
+
+        day = self.request.query_params.get('day', None)
+
+        if day is not None:
+            happy_hours = happy_hours.filter(weekday__day=day)
+        
+        else:
+            today = date.today().strftime("%A")
+            happy_hours = happy_hours.filter(weekday__day=today)
+            
+
+        # special_type = self.request.query_params.get('type', None)
+        # if special_type is not None:
+        #     happy_hours = happy_hours.filter(special_type__id=special_type)
 
         serializer = HappyHourSerializer(
             happy_hours, many=True, context={'request': request})
