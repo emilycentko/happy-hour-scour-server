@@ -2,25 +2,32 @@ from django.http import HttpResponseServerError
 from django.contrib.auth.models import User
 from rest_framework import serializers, status
 from rest_framework.decorators import action
-from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 from happyhourscourapi.models import HappyHour, Customer, Favorite 
+from datetime import datetime as date
 
 class FavoriteView(ViewSet):
 
     def list(self, request):
 
-        try:
-            customer = Customer.objects.get(user=request.auth.user)
-            favorites = Favorite.objects.filter(customer=customer)
+        customer = Customer.objects.get(user=request.auth.user)
+        favorites = Favorite.objects.filter(customer=customer)
 
-            serializer = FavoriteSerializer(
-                favorites, many=True, context={'request': request})
 
-            return Response(serializer.data)
-        except Exception as ex:
-            return HttpResponseServerError(ex)
+        day = self.request.query_params.get('day', None)
+
+        if day is not None:
+            favorites = favorites.filter(happy_hour__weekday__day=day)
+        
+        else:
+            today = date.today().strftime("%A")
+            favorites = favorites.filter(happy_hour__weekday__day=today)
+
+        serializer = FavoriteSerializer(
+            favorites, many=True, context={'request': request})
+
+        return Response(serializer.data)
 
     @action(methods=['get', 'post'], detail=False)
     def favorites(self, request):
