@@ -9,6 +9,7 @@ from happyhourscourapi.models import HappyHour, Customer, Favorite
 from django.contrib.auth.models import User
 from datetime import datetime as date
 from rest_framework.decorators import action
+from django.db.models import Q
 
 
 class HappyHourView(ViewSet):
@@ -17,8 +18,9 @@ class HappyHourView(ViewSet):
 
         happy_hours = HappyHour.objects.all()
 
-
         day = self.request.query_params.get('day', None)
+
+        search_terms = self.request.query_params.get('searchTerms', None)
 
         if day is not None:
             happy_hours = happy_hours.filter(weekday__day=day)
@@ -26,9 +28,16 @@ class HappyHourView(ViewSet):
         else:
             today = date.today().strftime("%A")
             happy_hours = happy_hours.filter(weekday__day=today)
-            
 
+        if search_terms is not None:
+            today = date.today().strftime("%A")
+            happy_hours = HappyHour.objects.filter(Q(business__name__contains=search_terms, weekday__day=today))
+
+        if search_terms is not None and day is not None:
+            happy_hours = HappyHour.objects.filter(Q(business__name__contains=search_terms, weekday__day=day))
+        
         special_type = self.request.query_params.get('type', None)
+
         if special_type is not None:
             happy_hours = happy_hours.filter(special_type__id=special_type)
 
