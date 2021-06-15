@@ -5,8 +5,10 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from rest_framework import status
-from happyhourscourapi.models import HappyHour, Customer, WeekDay
+from happyhourscourapi.models import HappyHour, Customer, Favorite
+from django.contrib.auth.models import User
 from datetime import datetime as date
+from rest_framework.decorators import action
 
 
 class HappyHourView(ViewSet):
@@ -26,13 +28,15 @@ class HappyHourView(ViewSet):
             happy_hours = happy_hours.filter(weekday__day=today)
             
 
-        # special_type = self.request.query_params.get('type', None)
-        # if special_type is not None:
-        #     happy_hours = happy_hours.filter(special_type__id=special_type)
+        special_type = self.request.query_params.get('type', None)
+        if special_type is not None:
+            happy_hours = happy_hours.filter(special_type__id=special_type)
 
         serializer = HappyHourSerializer(
             happy_hours, many=True, context={'request': request})
         return Response(serializer.data)
+    
+    
 
 class HappyHourSerializer(serializers.ModelSerializer):
    
@@ -40,3 +44,5 @@ class HappyHourSerializer(serializers.ModelSerializer):
         model = HappyHour
         fields = ('id', 'business', 'special_type', 'weekday', 'description', 'image')
         depth = 1
+
+
