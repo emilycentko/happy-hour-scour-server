@@ -36,7 +36,7 @@ class FavoriteView(ViewSet):
 
         favorite = Favorite()
         favorite.customer = customer
-        happy_hour = HappyHour.objects.get(pk=request.data["happyhour"])
+        happy_hour = HappyHour.objects.get(pk=request.data["happy_hour"])
         favorite.happy_hour = happy_hour
 
         try:
