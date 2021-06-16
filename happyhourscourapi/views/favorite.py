@@ -1,4 +1,5 @@
 from django.http import HttpResponseServerError
+from django.core.exceptions import ValidationError
 from django.contrib.auth.models import User
 from rest_framework import serializers, status
 from rest_framework.decorators import action
@@ -29,32 +30,38 @@ class FavoriteView(ViewSet):
 
         return Response(serializer.data)
 
-    @action(methods=['get', 'post'], detail=False)
-    def favorites(self, request):
+    def create(self, request):
 
         customer = Customer.objects.get(user=request.auth.user)
-        favorites = Favorite.objects.filter(customer=customer)
 
-        if request.method == "GET":
+        favorite = Favorite()
+        favorite.customer = customer
+        happy_hour = HappyHour.objects.get(pk=request.data["happyhour"])
+        favorite.happy_hour = happy_hour
 
-            serializer = FavoriteSerializer(
-                favorites, many=True, context={'request': request})
+        try:
+            favorite.save()
+            serializer = FavoriteSerializer(favorite, context={'request': request})
             return Response(serializer.data)
 
-        if request.method == "POST":
+        except ValidationError as ex:
+            return Response({"reason": ex.message}, status=status.HTTP_400_BAD_REQUEST)
 
-            favorite = Favorite()
+    def destroy(self, request, pk=None):
 
-            try:
-                favorite.happy_hour = Customer.objects.get(user_id=request.data["happy_hour"])
-                favorite.customer = customer
-                favorite.save()
+        try:
+            favorite = Favorite.objects.get(pk=pk)
+            favorite.delete()
 
-                serializer = FavoriteSerializer(
-                    favorite, many=False, context={'request': request})
-                return Response({}, status=status.HTTP_201_CREATED)
-            except Exception as ex:
-                return Response({'message': ex.args[0]})
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+        except Favorite.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
    
