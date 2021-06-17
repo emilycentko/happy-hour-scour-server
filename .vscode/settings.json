@@ -10,5 +10,6 @@
             "name": "HappyHourScour",
             "database": "db.sqlite3"
         }
-    ]
+    ],
+    "python.pythonPath": "/Users/emilycentko/.local/share/virtualenvs/happy-hour-scour-server-SHppUQMz/bin/python"
 }

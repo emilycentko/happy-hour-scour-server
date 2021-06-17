@@ -17,6 +17,19 @@ class HappyHourView(ViewSet):
     def list(self, request):
 
         happy_hours = HappyHour.objects.all()
+        customer = Customer.objects.get(user=request.auth.user)
+
+        for happy_hour in happy_hours:
+            happy_hour.favorited = None
+
+            try:
+                Favorite.objects.get(happy_hour=happy_hour, customer=customer)
+                happy_hour.favorited = True
+            except Favorite.DoesNotExist:
+                happy_hour.favorited = False
+
+
+        #Params for today, day of the week, and search query 
 
         day = self.request.query_params.get('day', None)
 
@@ -35,6 +48,8 @@ class HappyHourView(ViewSet):
 
         if search_terms is not None and day is not None:
             happy_hours = HappyHour.objects.filter(Q(business__name__contains=search_terms, weekday__day=day))
+
+        #Params for special type
         
         special_type = self.request.query_params.get('type', None)
 
@@ -51,7 +66,7 @@ class HappyHourSerializer(serializers.ModelSerializer):
    
     class Meta:
         model = HappyHour
-        fields = ('id', 'business', 'special_type', 'weekday', 'description', 'image')
+        fields = ('id', 'business', 'special_type', 'weekday', 'description', 'image', 'favorited')
         depth = 1
 
 
