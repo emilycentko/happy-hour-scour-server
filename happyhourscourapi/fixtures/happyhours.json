@@ -7,7 +7,8 @@
             "special_type": 3,
             "weekday": 2,
             "description": "$1 off appetizers, $1 off beer, $1 off wine, and $1 off liquor",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -18,7 +19,8 @@
             "special_type": 3,
             "weekday": 3,
             "description": "$5 wells, $4 craft drafts, $3 domestic drafts, $2 PBR 12oz can, and $6 chicken quesadilla",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -29,7 +31,8 @@
             "special_type": 3,
             "weekday": 2,
             "description": "At the bar only: 2-for-1 Kirin, $6 house red wine, $6 house white wine, $5 house cold sake, $2 off all tap cocktails, $3 steamed edamame, $5 spicy tuna & crispy rice",
-            "image": "v1623431901/twotenjack_d6pouy.jpg"
+            "image": "v1623431901/twotenjack_d6pouy.jpg",
+            "favorited": false
         }
     },
     {
@@ -40,7 +43,8 @@
             "special_type": 3,
             "weekday": 2,
             "description": "Seasonal specials (subject to change). Menu items have included $9 Husk Punch, $10 Husk Old Fashioned cocktails, $5 Avondale 'Mosey' Lager, $10 hickory-smoked wings, $9 pimento cheese with Benne wafers, and a $15 Husk cheeseburger.",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -51,7 +55,8 @@
             "special_type": 1,
             "weekday": 3,
             "description": "$8-$9 classic cocktails, $6 select house wines, $5 highlighted draft beers",
-            "image": null
+            "image": null,
+            "favorited": true
         }
     },
     {
@@ -62,7 +67,8 @@
             "special_type": 3,
             "weekday": 3,
             "description": "Happy hour from 4:00pm to 6:00pm includes $8 martinis, $5 wines, and $1.50-$5 select bites.",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -73,7 +79,8 @@
             "special_type": 3,
             "weekday": 3,
             "description": "$6 Tennessee Whiskey of the day, $7 classic cocktails, $9 draft beer and well shot, and $5-$7 appetizer specials",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -84,7 +91,8 @@
             "special_type": 3,
             "weekday": 4,
             "description": "$6 cocktails, $6 house wines, $5 drafts, and $1-$7 select bites",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -95,7 +103,8 @@
             "special_type": 1,
             "weekday": 4,
             "description": "$5 house wines, $5 draft beer, and 2-for-1 Busch Light",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -106,7 +115,8 @@
             "special_type": 3,
             "weekday": 3,
             "description": "$2 off beer, $2 off wine, $8 select cocktails, and $3-$7 select bites",
-            "image": null
+            "image": null,
+            "favorited": true
         }
     },
     {
@@ -117,7 +127,8 @@
             "special_type": 3,
             "weekday": 4,
             "description": "$8 Sapporo + hot chicken bun or pork bun",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -128,7 +139,8 @@
             "special_type": 1,
             "weekday": 7,
             "description": "$1 off draft beers and $5 well drinks",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     },
     {
@@ -139,7 +151,8 @@
             "special_type": 1,
             "weekday": 1,
             "description": "All draft beers $3, all well drinks $4",
-            "image": null
+            "image": null,
+            "favorited": true
         }
     },
     {
@@ -150,7 +163,8 @@
             "special_type": 1,
             "weekday": 7,
             "description": "2 for 1 beers and well drinks and 1/2 off bottles of wine",
-            "image": null
+            "image": null,
+            "favorited": false
         }
     }
 ]
