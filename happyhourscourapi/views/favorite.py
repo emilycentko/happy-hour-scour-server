@@ -12,19 +12,9 @@ class FavoriteView(ViewSet):
 
     def list(self, request):
 
-        favorite = Favorite.objects.all()
+        
         customer = Customer.objects.get(user=request.auth.user)
         favorites = Favorite.objects.filter(customer=customer)
-
-
-        day = self.request.query_params.get('day', None)
-
-        if day is not None:
-            favorites = favorites
-        
-        else:
-            today = date.today().strftime("%A")
-            favorites = favorites.filter(happy_hour__weekday__day=today)
 
         serializer = FavoriteSerializer(
             favorites, many=True, context={'request': request})
