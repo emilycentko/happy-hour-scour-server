@@ -12,18 +12,9 @@ class FavoriteView(ViewSet):
 
     def list(self, request):
 
+        
         customer = Customer.objects.get(user=request.auth.user)
         favorites = Favorite.objects.filter(customer=customer)
-
-
-        day = self.request.query_params.get('day', None)
-
-        if day is not None:
-            favorites = favorites.filter(happy_hour__weekday__day=day)
-        
-        else:
-            today = date.today().strftime("%A")
-            favorites = favorites.filter(happy_hour__weekday__day=today)
 
         serializer = FavoriteSerializer(
             favorites, many=True, context={'request': request})
@@ -49,8 +40,10 @@ class FavoriteView(ViewSet):
 
     def destroy(self, request, pk=None):
 
+        customer = Customer.objects.get(user=request.auth.user)
+
         try:
-            favorite = Favorite.objects.get(pk=pk)
+            favorite = Favorite.objects.get(happy_hour_id=pk, customer=customer)
             favorite.delete()
 
             return Response({}, status=status.HTTP_204_NO_CONTENT)

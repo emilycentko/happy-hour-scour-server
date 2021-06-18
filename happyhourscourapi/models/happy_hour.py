@@ -7,3 +7,11 @@ class HappyHour(models.Model):
     weekday = models.ForeignKey("WeekDay", on_delete=models.DO_NOTHING,)
     description = models.CharField(max_length=200)
     image = models.ImageField(null=True)
+
+    @property
+    def favorited(self):
+        return self.__favorited
+    
+    @favorited.setter
+    def favorited(self, value):
+            self.__favorited = value
