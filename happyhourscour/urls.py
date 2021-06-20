@@ -1,6 +1,6 @@
 from happyhourscourapi.views.favorite import FavoriteView
 from rest_framework import routers
-from happyhourscourapi.views import HappyHourView, Profile, FavoriteView
+from happyhourscourapi.views import HappyHourView, Profile, FavoriteView, SpecialTypeView
 from django.conf.urls import include
 from django.urls import path
 from happyhourscourapi.views import register_user, login_user
@@ -9,6 +9,7 @@ router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'happyhours', HappyHourView, 'happyhour')
 router.register(r'profile', Profile, 'profile')
 router.register(r'favorites', FavoriteView, 'favorite')
+router.register(r'specialtypes', SpecialTypeView, 'specialtype')
 
 urlpatterns = [
     path('', include(router.urls)),
