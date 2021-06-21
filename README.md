@@ -19,4 +19,4 @@ Feel free to reference the [Happy Hour Scour database diagram](https://dbdiagram
 
 ## Client-side Repository
 
-Client-side repository and instructions to access can be found here [https://github.com/emilycentko/happy-hour-scour-client].
+Client-side repository and instructions to access can be found [here] (https://github.com/emilycentko/happy-hour-scour-client).
