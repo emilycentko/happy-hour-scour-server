@@ -49,6 +49,17 @@ class HappyHourView(ViewSet):
         if special_type is not None and day is not None:
             happy_hours = HappyHour.objects.filter(special_type__id=special_type, weekday__day=day)
 
+        #Params for location
+        
+        location = self.request.query_params.get('location', None)
+
+        if location is not None:
+            
+            happy_hours = HappyHour.objects.filter(business__location__id=location, weekday__day=today)
+
+        if location is not None and day is not None:
+            happy_hours = HappyHour.objects.filter(business__location__id=location, weekday__day=day)
+
         #Params for features
         
         trivia = self.request.query_params.get('trivia', None)
