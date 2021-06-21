@@ -7,3 +7,4 @@ from .time import Time
 from .favorite import Favorite
 from .special_type import SpecialType
 from .review import Review
+from .location import Location

@@ -6,9 +6,11 @@
             "business": 1,
             "special_type": 3,
             "weekday": 2,
-            "description": "$1 off appetizers, $1 off beer, $1 off wine, and $1 off liquor",
-            "image": null,
-            "favorited": false
+            "wine": "$1 off wine",
+            "beer": "$1 off beer",
+            "food": "$1 off appetizers",
+            "liquor": "$1 off liquor",
+            "image": null
         }
     },
     {
@@ -18,9 +20,11 @@
             "business": 2,
             "special_type": 3,
             "weekday": 3,
-            "description": "$5 wells, $4 craft drafts, $3 domestic drafts, $2 PBR 12oz can, and $6 chicken quesadilla",
-            "image": null,
-            "favorited": false
+            "wine": null,
+            "beer": "$4 craft drafts, $3 domestic drafts, & $2 PBR 12oz can",
+            "food": "$6 chicken quesadilla",
+            "liquor": "$5 wells",
+            "image": null
         }
     },
     {
@@ -30,9 +34,11 @@
             "business": 3,
             "special_type": 3,
             "weekday": 2,
-            "description": "At the bar only: 2-for-1 Kirin, $6 house red wine, $6 house white wine, $5 house cold sake, $2 off all tap cocktails, $3 steamed edamame, $5 spicy tuna & crispy rice",
-            "image": "v1623431901/twotenjack_d6pouy.jpg",
-            "favorited": false
+            "wine": "$6 house red wine & $6 house white wine",
+            "beer": "2-for-1 Kirin",
+            "food": "$3 steamed edamame, $5 spicy tuna & crispy rice",
+            "liquor": "$5 house cold sake, $2 off all tap cocktails",
+            "image": "v1623431901/twotenjack_d6pouy.jpg"
         }
     },
     {
@@ -41,10 +47,12 @@
         "fields": {
             "business": 4,
             "special_type": 3,
-            "weekday": 2,
-            "description": "Seasonal specials (subject to change). Menu items have included $9 Husk Punch, $10 Husk Old Fashioned cocktails, $5 Avondale 'Mosey' Lager, $10 hickory-smoked wings, $9 pimento cheese with Benne wafers, and a $15 Husk cheeseburger.",
-            "image": null,
-            "favorited": false
+            "weekday": 6,
+            "wine": "$6 select wine",
+            "beer": "$1 off all beers",
+            "food": "discounted bites",
+            "liquor": "$6 cocktails",
+            "image": null
         }
     },
     {
@@ -54,9 +62,11 @@
             "business": 5,
             "special_type": 1,
             "weekday": 3,
-            "description": "$8-$9 classic cocktails, $6 select house wines, $5 highlighted draft beers",
-            "image": null,
-            "favorited": true
+            "wine": "$6 select house wines",
+            "beer": "$5 highlighted draft beers",
+            "food": null,
+            "liquor": "$8-$9 classic cocktails",
+            "image": null
         }
     },
     {
@@ -66,9 +76,11 @@
             "business": 6,
             "special_type": 3,
             "weekday": 3,
-            "description": "Happy hour from 4:00pm to 6:00pm includes $8 martinis, $5 wines, and $1.50-$5 select bites.",
-            "image": null,
-            "favorited": false
+            "wine": "$5 wines",
+            "beer": null,
+            "food": "$1.50-$5 select bites",
+            "liquor": "$8 martinis",
+            "image": null
         }
     },
     {
@@ -78,9 +90,11 @@
             "business": 7,
             "special_type": 3,
             "weekday": 3,
-            "description": "$6 Tennessee Whiskey of the day, $7 classic cocktails, $9 draft beer and well shot, and $5-$7 appetizer specials",
-            "image": null,
-            "favorited": false
+            "wine": null,
+            "beer": "$9 draft beer and well shot",
+            "food": "$5-$7 appetizer specials",
+            "liquor": "$6 Tennessee Whiskey of the day, $7 classic cocktails",
+            "image": null
         }
     },
     {
@@ -90,9 +104,11 @@
             "business": 8,
             "special_type": 3,
             "weekday": 4,
-            "description": "$6 cocktails, $6 house wines, $5 drafts, and $1-$7 select bites",
-            "image": null,
-            "favorited": false
+            "wine": "$6 house wines",
+            "beer": "$5 drafts",
+            "food": "$1-$7 select bites",
+            "liquor": "$6 cocktails",
+            "image": null
         }
     },
     {
@@ -102,9 +118,11 @@
             "business": 9,
             "special_type": 1,
             "weekday": 4,
-            "description": "$5 house wines, $5 draft beer, and 2-for-1 Busch Light",
-            "image": null,
-            "favorited": false
+            "wine": "$5 house wines",
+            "beer": "$5 draft beer & 2-for-1 Busch Light",
+            "food": null,
+            "liquor": null,
+            "image": null
         }
     },
     {
@@ -114,9 +132,11 @@
             "business": 10,
             "special_type": 3,
             "weekday": 3,
-            "description": "$2 off beer, $2 off wine, $8 select cocktails, and $3-$7 select bites",
-            "image": null,
-            "favorited": true
+            "wine": "$2 off wine",
+            "beer": "$2 off beer",
+            "food": "$3-$7 select bites",
+            "liquor": "$8 select cocktails",
+            "image": null
         }
     },
     {
@@ -126,9 +146,11 @@
             "business": 11,
             "special_type": 3,
             "weekday": 4,
-            "description": "$8 Sapporo + hot chicken bun or pork bun",
-            "image": null,
-            "favorited": false
+            "wine": null,
+            "beer": "$8 Sapporo",
+            "food": "+ Hot chicken bun or pork bun",
+            "liquor": null,
+            "image": null
         }
     },
     {
@@ -138,9 +160,11 @@
             "business": 12,
             "special_type": 1,
             "weekday": 7,
-            "description": "$1 off draft beers and $5 well drinks",
-            "image": null,
-            "favorited": false
+            "wine": null,
+            "beer": "$1 off draft beers",
+            "food": null,
+            "liquor": "$5 well drinks",
+            "image": null
         }
     },
     {
@@ -150,9 +174,11 @@
             "business": 13,
             "special_type": 1,
             "weekday": 1,
-            "description": "All draft beers $3, all well drinks $4",
-            "image": null,
-            "favorited": true
+            "wine": null,
+            "beer": "All draft beers $3",
+            "food": null,
+            "liquor": "All well drinks $4",
+            "image": null
         }
     },
     {
@@ -162,9 +188,11 @@
             "business": 14,
             "special_type": 1,
             "weekday": 7,
-            "description": "2 for 1 beers and well drinks and 1/2 off bottles of wine",
-            "image": null,
-            "favorited": false
+            "wine": "1/2 off bottles of wine",
+            "beer": "2 for 1 beers",
+            "food": null,
+            "liquor": "2 for 1 well drinks",
+            "image": null
         }
     }
 ]
