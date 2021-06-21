@@ -91,9 +91,11 @@ class HappyHourView(ViewSet):
             except Favorite.DoesNotExist:
                 happy_hour.favorited = False
 
+
         serializer = HappyHourSerializer(
             happy_hours, many=True, context={'request': request})
         return Response(serializer.data)
+
     
 
 class BusinessSerializer(serializers.ModelSerializer):
@@ -103,13 +105,15 @@ class BusinessSerializer(serializers.ModelSerializer):
         fields = ('id', 'name', 'business_type', 'patio', 'location', 'trivia')
         depth = 1
 
+
 class HappyHourSerializer(serializers.ModelSerializer):
 
     business = BusinessSerializer(many=False)
    
     class Meta:
         model = HappyHour
-        fields = ('id', 'business', 'special_type', 'weekday', 'wine', 'beer', 'food', 'liquor', 'image', 'favorited')
-        depth = 2
+        fields = ('id', 'business', 'special_type', 'weekday', 'start_time', 'end_time', 'wine', 'beer', 'food', 'liquor', 'image', 'favorited')
+        depth = 1
+
 
 

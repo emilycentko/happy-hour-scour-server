@@ -10,6 +10,8 @@ class HappyHour(models.Model):
     food = models.CharField(max_length=200, null=True)
     liquor = models.CharField(max_length=200, null=True)
     image = models.ImageField(null=True)
+    start_time = models.TimeField(auto_now = False, auto_now_add = False)
+    end_time = models.TimeField(auto_now = False, auto_now_add = False)
 
     @property
     def favorited(self):

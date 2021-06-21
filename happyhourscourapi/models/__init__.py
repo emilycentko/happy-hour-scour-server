@@ -3,7 +3,6 @@ from .business import Business
 from .weekday import WeekDay
 from .business_type import BusinessType
 from .happy_hour import HappyHour
-from .time import Time
 from .favorite import Favorite
 from .special_type import SpecialType
 from .review import Review
