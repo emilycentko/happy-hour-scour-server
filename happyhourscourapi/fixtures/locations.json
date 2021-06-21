@@ -1,0 +1,65 @@
+[
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 1,
+        "fields": {
+            "name": "East Nashville"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 2,
+        "fields": {
+            "name": "Germantown"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 3,
+        "fields": {
+            "name": "12th South"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 4,
+        "fields": {
+            "name": "The Gulch"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 5,
+        "fields": {
+            "name": "Melrose & Berry Hill"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 6,
+        "fields": {
+            "name": "Downtown"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 7,
+        "fields": {
+            "name": "Midtown & Music Row"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 8,
+        "fields": {
+            "name": "West Nashville"
+        }
+    },
+    {
+        "model": "happyhourscourapi.location",
+        "pk": 9,
+        "fields": {
+            "name": "SoBro"
+        }
+    }
+]

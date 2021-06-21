@@ -5,7 +5,10 @@ class HappyHour(models.Model):
     business = models.ForeignKey("Business", on_delete=models.DO_NOTHING,)
     special_type = models.ForeignKey("SpecialType", on_delete=models.DO_NOTHING,)
     weekday = models.ForeignKey("WeekDay", on_delete=models.DO_NOTHING,)
-    description = models.CharField(max_length=200)
+    wine = models.CharField(max_length=200, null=True)
+    beer = models.CharField(max_length=200, null=True)
+    food = models.CharField(max_length=200, null=True)
+    liquor = models.CharField(max_length=200, null=True)
     image = models.ImageField(null=True)
 
     @property

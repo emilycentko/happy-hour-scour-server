@@ -98,7 +98,7 @@ class HappyHourSerializer(serializers.ModelSerializer):
    
     class Meta:
         model = HappyHour
-        fields = ('id', 'business', 'special_type', 'weekday', 'description', 'image', 'favorited')
+        fields = ('id', 'business', 'special_type', 'weekday', 'wine', 'beer', 'food', 'liquor', 'image', 'favorited')
         depth = 2
 
 

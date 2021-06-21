@@ -6,6 +6,7 @@
             "name": "M.L. Rose (Melrose)",
             "business_type": 3,
             "patio": true,
+            "location": 5,
             "trivia": false,
             "image": ""
         }
@@ -17,6 +18,7 @@
             "name": "Two Bits",
             "business_type": 3,
             "patio": true,
+            "location": 4,
             "trivia": false,
             "image": ""
         }
@@ -28,6 +30,7 @@
             "name": "Two Ten Jack",
             "business_type": 2,
             "patio": true,
+            "location": 1,
             "trivia": false,
             "image": "https://res.cloudinary.com/dt8cdbrjs/image/upload/v1623431901/twotenjack_d6pouy.jpg"
         }
@@ -36,9 +39,10 @@
         "model": "happyhourscourapi.business",
         "pk": 4,
         "fields": {
-            "name": "Husk",
+            "name": "Lyra",
             "business_type": 2,
-            "patio": false,
+            "patio": true,
+            "location": 1,
             "trivia": false,
             "image": ""
         }
@@ -50,6 +54,7 @@
             "name": "Sinema",
             "business_type": 2,
             "patio": false,
+            "location": 5,
             "trivia": false,
             "image": ""
         }
@@ -61,6 +66,7 @@
             "name": "Cafe Roze",
             "business_type": 2,
             "patio": true,
+            "location": 1,
             "trivia": false
         }
     },
@@ -71,6 +77,7 @@
             "name": "Jane's Hideaway",
             "business_type": 3,
             "patio": false,
+            "location": 6,
             "trivia": false,
             "image": ""
         }
@@ -82,6 +89,7 @@
             "name": "Chaatable Indian Street Food",
             "business_type": 2,
             "patio": false,
+            "location": 8,
             "trivia": false,
             "image": ""
         }
@@ -93,6 +101,7 @@
             "name": "The Treehouse",
             "business_type": 3,
             "patio": true,
+            "location": 1,
             "trivia": false,
             "image": ""
         }
@@ -104,6 +113,7 @@
             "name": "Avo",
             "business_type": 2,
             "patio": true,
+            "location": 7,
             "trivia": false,
             "image": ""
         }
@@ -115,6 +125,7 @@
             "name": "Otaku Ramen (Gulch)",
             "business_type": 2,
             "patio": true,
+            "location": 4,
             "trivia": false,
             "image": ""
         }
@@ -126,6 +137,7 @@
             "name": "Vinyl Tap",
             "business_type": 1,
             "patio": true,
+            "location": 1,
             "trivia": false,
             "image": ""
         }
@@ -137,6 +149,7 @@
             "name": "Duke's",
             "business_type": 3,
             "patio": true,
+            "location": 1,
             "trivia": false,
             "image": ""
         }
@@ -148,6 +161,7 @@
             "name": "Rosemary & Beauty Queen",
             "business_type": 1,
             "patio": true,
+            "location": 1,
             "trivia": false,
             "image": ""
         }
