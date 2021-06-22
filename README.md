@@ -19,7 +19,7 @@ Now that your database is set up all you have to do is run the command:
 python manage.py runserver
 ```
 
-## Happy Hour Scour ERD
+## ERD
 
 Feel free to reference the [Happy Hour Scour database diagram](https://dbdiagram.io/d/60be5f25b29a09603d185b39) in the browser to view the tables and relationships for the database.
 
