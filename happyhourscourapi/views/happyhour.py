@@ -97,8 +97,15 @@ class HappyHourView(ViewSet):
         serializer = HappyHourSerializer(
             happy_hours, many=True, context={'request': request})
         return Response(serializer.data)
-
     
+    def retrieve(self, request, pk=None):
+        
+        try:
+            happy_hour = HappyHour.objects.get(pk=pk)
+            serializer = HappyHourSerializer(happy_hour, context={'request': request})
+            return Response(serializer.data)
+        except Exception as ex:
+            return HttpResponseServerError(ex)
 
 class BusinessSerializer(serializers.ModelSerializer):
    

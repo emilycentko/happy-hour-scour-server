@@ -76,16 +76,44 @@ class ReviewView(ViewSet):
         except Exception as ex:
             return HttpResponseServerError(ex)
 
-    def list(self, request):
+    def list(self, request, pk=None):
         
-        reviews = Review.objects.all()
+        happy_hour = HappyHour.objects.all()
+
+        happy_hour = self.request.query_params.get('happyhour', None)
+
+        if happy_hour is not None:
+            reviews = Review.objects.filter(happy_hour__id=happy_hour)
+        
+        else:
+            
+            reviews = Review.objects.all()
 
         serializer = ReviewSerializer(
             reviews, many=True, context={'request': request})
 
         return Response(serializer.data)
 
+class UserSerializer(serializers.ModelSerializer):
     
+    class Meta:
+        model = User
+        fields = ('first_name', 'last_name', 'username')
+
+class CustomerSerializer(serializers.ModelSerializer):
+    
+    user = UserSerializer(many=False)
+
+    class Meta:
+        model = Customer
+        fields = ('user')
+
+class HappyHourSerializer(serializers.ModelSerializer):
+   
+    class Meta:
+        model = HappyHour
+        fields = ('id', 'business', 'special_type', 'weekday', 'start_time', 'end_time', 'wine', 'beer', 'food', 'liquor', 'image')
+        depth = 1
 
 class ReviewSerializer(serializers.ModelSerializer):
    

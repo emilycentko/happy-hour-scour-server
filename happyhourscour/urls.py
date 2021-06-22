@@ -11,7 +11,7 @@ router.register(r'profile', Profile, 'profile')
 router.register(r'favorites', FavoriteView, 'favorite')
 router.register(r'specialtypes', SpecialTypeView, 'specialtype')
 router.register(r'locations', LocationView, 'location')
-router.register(r'reviews', ReviewView, 'happyhour')
+router.register(r'reviews', ReviewView, 'review')
 
 urlpatterns = [
     path('', include(router.urls)),
