@@ -33,6 +33,38 @@ class ReviewView(ViewSet):
 
         except ValidationError as ex:
             return Response({"reason": ex.message}, status=status.HTTP_400_BAD_REQUEST)
+    
+    def update(self, request, pk=None):
+        
+        customer = Customer.objects.get(user=request.auth.user)
+        
+        review = Review()
+        review.review = request.data["review"]
+        review.rating = request.data["rating"]
+
+        happy_hour = HappyHour.objects.get(pk=request.data["happyHourId"])
+        review.happy_hour = happy_hour
+
+        customer = Customer.objects.get(pk=request.data["customerId"])
+        review.customer = customer
+
+        happy_hour.save()
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+    def destroy(self, request, pk=None):
+        
+        try:
+            review = Review.objects.get(pk=pk)
+            review.delete()
+
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+        except Review.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
     def retrieve(self, request, pk=None):
         
@@ -43,8 +75,6 @@ class ReviewView(ViewSet):
             return Response(serializer.data)
         except Exception as ex:
             return HttpResponseServerError(ex)
-
-    
 
     def list(self, request):
         
