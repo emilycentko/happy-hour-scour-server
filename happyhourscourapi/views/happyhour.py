@@ -18,7 +18,8 @@ class HappyHourView(ViewSet):
 
         happy_hours = HappyHour.objects.all()
 
-        #Params for today, day of the week, and search query 
+        #Params for today, day of the week, and search query - params check for
+        # both today and day of the week
 
         day = self.request.query_params.get('day', None)
         today = date.today().strftime("%A")
@@ -78,7 +79,8 @@ class HappyHourView(ViewSet):
         if patio is not None and day is not None:
             happy_hours = HappyHour.objects.filter(business__patio=True, weekday__day=day)
 
-        #Favorited property
+        #Favorited property - loops over happy_hours to make them not favorited by default, unless
+        #True, then added to Favorite table 
         
         customer = Customer.objects.get(user=request.auth.user)
 
