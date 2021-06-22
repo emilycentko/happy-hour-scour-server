@@ -34,6 +34,26 @@ class ReviewView(ViewSet):
         except ValidationError as ex:
             return Response({"reason": ex.message}, status=status.HTTP_400_BAD_REQUEST)
 
+    def retrieve(self, request, pk=None):
+        
+        try:
+            
+            review = Review.objects.get(pk=pk)
+            serializer = ReviewSerializer(review, context={'request': request})
+            return Response(serializer.data)
+        except Exception as ex:
+            return HttpResponseServerError(ex)
+
+    
+
+    def list(self, request):
+        
+        reviews = Review.objects.all()
+
+        serializer = ReviewSerializer(
+            reviews, many=True, context={'request': request})
+
+        return Response(serializer.data)
 
     
 
