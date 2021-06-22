@@ -1,5 +1,11 @@
 # Happy Hour Scour
 
+## Technologies Used
+
+<b>Built with</b>
+- React.js (client-side)
+- Python & Django REST Framework (sever-side)
+
 ## Setup
 
 1. Clone this repository and change to the directory in the terminal.
