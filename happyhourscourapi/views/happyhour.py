@@ -18,7 +18,8 @@ class HappyHourView(ViewSet):
 
         happy_hours = HappyHour.objects.all()
 
-        #Params for today, day of the week, and search query 
+        #Params for today, day of the week, and search query - params check for
+        # both today and day of the week
 
         day = self.request.query_params.get('day', None)
         today = date.today().strftime("%A")
@@ -78,7 +79,8 @@ class HappyHourView(ViewSet):
         if patio is not None and day is not None:
             happy_hours = HappyHour.objects.filter(business__patio=True, weekday__day=day)
 
-        #Favorited property
+        #Favorited property - loops over happy_hours to make them not favorited by default, unless
+        #True, then added to Favorite table 
         
         customer = Customer.objects.get(user=request.auth.user)
 
@@ -91,9 +93,11 @@ class HappyHourView(ViewSet):
             except Favorite.DoesNotExist:
                 happy_hour.favorited = False
 
+
         serializer = HappyHourSerializer(
             happy_hours, many=True, context={'request': request})
         return Response(serializer.data)
+
     
 
 class BusinessSerializer(serializers.ModelSerializer):
@@ -103,13 +107,15 @@ class BusinessSerializer(serializers.ModelSerializer):
         fields = ('id', 'name', 'business_type', 'patio', 'location', 'trivia')
         depth = 1
 
+
 class HappyHourSerializer(serializers.ModelSerializer):
 
     business = BusinessSerializer(many=False)
    
     class Meta:
         model = HappyHour
-        fields = ('id', 'business', 'special_type', 'weekday', 'wine', 'beer', 'food', 'liquor', 'image', 'favorited')
-        depth = 2
+        fields = ('id', 'business', 'special_type', 'weekday', 'start_time', 'end_time', 'wine', 'beer', 'food', 'liquor', 'image', 'favorited')
+        depth = 1
+
 
 

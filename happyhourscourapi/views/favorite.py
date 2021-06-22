@@ -75,7 +75,7 @@ class FavoriteHappyHourSerializer(serializers.ModelSerializer):
    
     class Meta:
         model = HappyHour
-        fields = ('id', 'business', 'special_type', 'weekday', 'wine', 'beer', 'food', 'liquor', 'image')
+        fields = ('id', 'business', 'special_type', 'weekday', 'start_time', 'end_time', 'wine', 'beer', 'food', 'liquor', 'image')
         depth = 1
 
 class FavoriteSerializer(serializers.HyperlinkedModelSerializer):
