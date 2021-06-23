@@ -10,6 +10,7 @@ from django.contrib.auth.models import User
 from datetime import datetime as date
 from rest_framework.decorators import action
 from django.db.models import Q
+import time
 
 
 class HappyHourView(ViewSet):
@@ -54,12 +55,22 @@ class HappyHourView(ViewSet):
         
         location = self.request.query_params.get('location', None)
 
+        #location and today
         if location is not None:
             
             happy_hours = HappyHour.objects.filter(business__location__id=location, weekday__day=today)
-
+        
+        #location and day of the week
         if location is not None and day is not None:
             happy_hours = HappyHour.objects.filter(business__location__id=location, weekday__day=day)
+        
+        #location and today and special type
+        if location is not None and special_type is not None:
+            happy_hours = HappyHour.objects.filter(business__location__id=location, weekday__day=today, special_type__id=special_type)
+
+        #location and day of the week and special type
+        if location is not None and day is not None and special_type is not None:
+            happy_hours = HappyHour.objects.filter(business__location__id=location, weekday__day=day, special_type__id=special_type)
 
         #Params for features
         
@@ -118,6 +129,10 @@ class BusinessSerializer(serializers.ModelSerializer):
 class HappyHourSerializer(serializers.ModelSerializer):
 
     business = BusinessSerializer(many=False)
+    
+    start_time=serializers.TimeField(format='%I:%M %p', input_formats='%I:%M %p',)
+    end_time=serializers.TimeField(format='%I:%M %p', input_formats='%I:%M %p',)
+
    
     class Meta:
         model = HappyHour
