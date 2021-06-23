@@ -72,6 +72,9 @@ class CustomerSerializer(serializers.ModelSerializer):
         fields = ('id', 'user',)
 
 class FavoriteHappyHourSerializer(serializers.ModelSerializer):
+
+    start_time=serializers.TimeField(format='%I:%M %p', input_formats='%I:%M %p',)
+    end_time=serializers.TimeField(format='%I:%M %p', input_formats='%I:%M %p',)
    
     class Meta:
         model = HappyHour
