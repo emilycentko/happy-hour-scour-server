@@ -22,7 +22,7 @@ class ReviewView(ViewSet):
         happy_hour = HappyHour.objects.get(pk=request.data["happyHourId"])
         review.happy_hour = happy_hour
 
-        customer = Customer.objects.get(pk=request.data["customerId"])
+        # customer = Customer.objects.get(pk=request.data["customerId"])
         review.customer = customer
 
         try:
@@ -79,7 +79,7 @@ class ReviewView(ViewSet):
     def list(self, request, pk=None):
         
         happy_hour = HappyHour.objects.all()
-
+       
         happy_hour = self.request.query_params.get('happyhour', None)
 
         if happy_hour is not None:
@@ -99,6 +99,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ('first_name', 'last_name', 'username')
+        depth = 1
 
 class CustomerSerializer(serializers.ModelSerializer):
     
@@ -107,6 +108,7 @@ class CustomerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Customer
         fields = ('user')
+        depth = 1
 
 class HappyHourSerializer(serializers.ModelSerializer):
    
@@ -120,5 +122,5 @@ class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
         fields = ('id', 'review', 'rating', 'happy_hour', 'customer')
-        depth = 1
+        depth = 2
 
