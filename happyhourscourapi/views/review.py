@@ -5,7 +5,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from rest_framework import status
-from happyhourscourapi.models import HappyHour, Customer, Review
+from happyhourscourapi.models import HappyHour, Customer, Review, Business
 from django.contrib.auth.models import User
 
 class ReviewView(ViewSet):
@@ -110,12 +110,21 @@ class CustomerSerializer(serializers.ModelSerializer):
         fields = ('user')
         depth = 1
 
+class BusinessSerializer(serializers.ModelSerializer):
+   
+    class Meta:
+        model = Business
+        fields = ('id', 'name')
+        depth = 1
+
 class HappyHourSerializer(serializers.ModelSerializer):
+
+    business = BusinessSerializer(many=False)
    
     class Meta:
         model = HappyHour
         fields = ('id', 'business', 'special_type', 'weekday', 'start_time', 'end_time', 'wine', 'beer', 'food', 'liquor', 'image')
-        depth = 1
+        depth = 2
 
 class ReviewSerializer(serializers.ModelSerializer):
    
