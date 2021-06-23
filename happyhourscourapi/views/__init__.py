@@ -5,3 +5,4 @@ from .profile import Profile
 from .favorite import FavoriteView
 from .specialtype import SpecialTypeView
 from .location import LocationView
+from .review import ReviewView

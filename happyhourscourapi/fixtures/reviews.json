@@ -1,0 +1,32 @@
+[
+    {
+        "model": "happyhourscourapi.review",
+        "pk": 1,
+        "fields": {
+            "review": "Can't beat $4 drafts and $5 well drinks!",
+            "rating": 5,
+            "happy_hour": 2,
+            "customer": 1
+        }
+    },
+    {
+        "model": "happyhourscourapi.review",
+        "pk": 2,
+        "fields": {
+            "review": "Good beers always on tap!",
+            "rating": 5,
+            "happy_hour": 13,
+            "customer": 1
+        }
+    },
+    {
+        "model": "happyhourscourapi.review",
+        "pk": 3,
+        "fields": {
+            "review": "Not bad, but I wish they offered $5 house hot sake instead of cold sake",
+            "rating": 3,
+            "happy_hour": 3,
+            "customer": 1
+        }
+    }
+]
