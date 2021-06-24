@@ -1,0 +1,1 @@
+web: gunicorn happyhourscour.wsgi --log-file -
