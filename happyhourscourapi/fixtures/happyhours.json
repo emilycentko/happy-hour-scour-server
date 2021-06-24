@@ -12,7 +12,7 @@
             "beer": "$1 off beer",
             "food": "$1 off appetizers",
             "liquor": "$1 off liquor",
-            "image": null
+            "image": "v1624509103/ML-Rose_ugt14q.jpg"
         }
     },
     {
@@ -28,7 +28,7 @@
             "beer": "$4 craft drafts, $3 domestic drafts, & $2 PBR 12oz can",
             "food": "$6 chicken quesadilla",
             "liquor": "$5 wells",
-            "image": null
+            "image": "v1624509139/twobits_l4zrte.jpg"
         }
     },
     {
@@ -58,9 +58,9 @@
             "end_time": "18:00",
             "wine": "$6 select wine",
             "beer": "$1 off all beers",
-            "food": "discounted bites",
+            "food": "$4-8 bites",
             "liquor": "$6 cocktails",
-            "image": null
+            "image": "v1624509187/lyra_tvxtpo.jpg"
         }
     },
     {
@@ -76,7 +76,7 @@
             "beer": "$5 highlighted draft beers",
             "food": null,
             "liquor": "$8-$9 classic cocktails",
-            "image": null
+            "image": "v1624509217/sinema_vx02ib.jpg"
         }
     },
     {
@@ -92,7 +92,7 @@
             "beer": null,
             "food": "$1.50-$5 select bites",
             "liquor": "$8 martinis",
-            "image": null
+            "image": "v1624509109/caferoze_ut3opw.webp"
         }
     },
     {
@@ -108,7 +108,7 @@
             "beer": "$9 draft beer and well shot",
             "food": "$5-$7 appetizer specials",
             "liquor": "$6 Tennessee Whiskey of the day, $7 classic cocktails",
-            "image": null
+            "image": "v1624509182/janeshideaway_buia3g.jpg"
         }
     },
     {
@@ -124,7 +124,7 @@
             "beer": "$5 drafts",
             "food": "$1-$7 select bites",
             "liquor": "$6 cocktails",
-            "image": null
+            "image": "v1624509115/chaatable_bjkfub.jpg"
         }
     },
     {
@@ -140,7 +140,7 @@
             "beer": "$5 draft beer & 2-for-1 Busch Light",
             "food": null,
             "liquor": null,
-            "image": null
+            "image": "v1624509097/treehouse_y3ubmj.jpg"
         }
     },
     {
@@ -156,7 +156,7 @@
             "beer": "$2 off beer",
             "food": "$3-$7 select bites",
             "liquor": "$8 select cocktails",
-            "image": null
+            "image": "v1624509082/avo13_gki1ma.jpg"
         }
     },
     {
@@ -172,7 +172,7 @@
             "beer": "$8 Sapporo",
             "food": "+ Hot chicken bun or pork bun",
             "liquor": null,
-            "image": null
+            "image": "v1624509206/otaku2_c1hdqj.jpg"
         }
     },
     {
@@ -188,7 +188,7 @@
             "beer": "$1 off draft beers",
             "food": null,
             "liquor": "$5 well drinks",
-            "image": null
+            "image": "v1624509242/VinylTap_pspckl.jpg"
         }
     },
     {
@@ -204,7 +204,7 @@
             "beer": "All draft beers $3",
             "food": null,
             "liquor": "All well drinks $4",
-            "image": null
+            "image": "v1624509149/dukes_rqd4af.png"
         }
     },
     {
@@ -220,7 +220,1223 @@
             "beer": "2 for 1 beers",
             "food": null,
             "liquor": "2 for 1 well drinks",
-            "image": null
+            "image": "v1624509212/rosemary_ijrzbx.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 15,
+        "fields": {
+            "business": 15,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 select wines by the glass",
+            "beer": "$4 select beers",
+            "food": null,
+            "liquor": "$6 select cocktails",
+            "image": "v1624509154/emmysquared_qdu1pi.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 16,
+        "fields": {
+            "business": 16,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "15:00",
+            "end_time": "19:00",
+            "wine": "1/2 off glasses of wine",
+            "beer": "1/2 off draft beer",
+            "food": null,
+            "liquor": "1/2 off signature cocktails",
+            "image": "v1624509221/sutler_bf5raw.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 17,
+        "fields": {
+            "business": 17,
+            "special_type": 1,
+            "weekday": 7,
+            "start_time": "16:00",
+            "end_time": "18:30",
+            "wine": "$6 wines",
+            "beer": "$4 draft beers",
+            "food": "$8-24 select bites",
+            "liquor": "$8 cocktails",
+            "image": "v1624509158/etch_ifzhvc.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 18,
+        "fields": {
+            "business": 4,
+            "special_type": 3,
+            "weekday": 1,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$6 select wine",
+            "beer": "$1 off all beers",
+            "food": "$4-8 bites",
+            "liquor": "$6 cocktails",
+            "image": "v1624509187/lyra_tvxtpo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 19,
+        "fields": {
+            "business": 4,
+            "special_type": 3,
+            "weekday": 2,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$6 select wine",
+            "beer": "$1 off all beers",
+            "food": "$4-8 bites",
+            "liquor": "$6 cocktails",
+            "image": "v1624509187/lyra_tvxtpo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 20,
+        "fields": {
+            "business": 4,
+            "special_type": 3,
+            "weekday": 3,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$6 select wine",
+            "beer": "$1 off all beers",
+            "food": "$4-8 bites",
+            "liquor": "$6 cocktails",
+            "image": "v1624509187/lyra_tvxtpo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 21,
+        "fields": {
+            "business": 4,
+            "special_type": 3,
+            "weekday": 4,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$6 select wine",
+            "beer": "$1 off all beers",
+            "food": "$4-8 bites",
+            "liquor": "$6 cocktails",
+            "image": "v1624509187/lyra_tvxtpo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 22,
+        "fields": {
+            "business": 4,
+            "special_type": 3,
+            "weekday": 5,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$6 select wine",
+            "beer": "$1 off all beers",
+            "food": "$4-8 bites",
+            "liquor": "$6 cocktails",
+            "image": "v1624509187/lyra_tvxtpo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 23,
+        "fields": {
+            "business": 9,
+            "special_type": 1,
+            "weekday": 6,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$5 house wines",
+            "beer": "$5 draft beer & 2-for-1 Busch Light",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509097/treehouse_y3ubmj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 24,
+        "fields": {
+            "business": 9,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$5 house wines",
+            "beer": "$5 draft beer & 2-for-1 Busch Light",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509097/treehouse_y3ubmj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 25,
+        "fields": {
+            "business": 9,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$5 house wines",
+            "beer": "$5 draft beer & 2-for-1 Busch Light",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509097/treehouse_y3ubmj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 26,
+        "fields": {
+            "business": 9,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$5 house wines",
+            "beer": "$5 draft beer & 2-for-1 Busch Light",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509097/treehouse_y3ubmj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 27,
+        "fields": {
+            "business": 3,
+            "special_type": 3,
+            "weekday": 1,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$6 house red wine & $6 house white wine",
+            "beer": "2-for-1 Kirin",
+            "food": "$3 steamed edamame, $5 spicy tuna & crispy rice",
+            "liquor": "$5 house cold sake, $2 off all tap cocktails",
+            "image": "v1623431901/twotenjack_d6pouy.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 28,
+        "fields": {
+            "business": 3,
+            "special_type": 3,
+            "weekday": 3,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$6 house red wine & $6 house white wine",
+            "beer": "2-for-1 Kirin",
+            "food": "$3 steamed edamame, $5 spicy tuna & crispy rice",
+            "liquor": "$5 house cold sake, $2 off all tap cocktails",
+            "image": "v1623431901/twotenjack_d6pouy.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 29,
+        "fields": {
+            "business": 3,
+            "special_type": 3,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$6 house red wine & $6 house white wine",
+            "beer": "2-for-1 Kirin",
+            "food": "$3 steamed edamame, $5 spicy tuna & crispy rice",
+            "liquor": "$5 house cold sake, $2 off all tap cocktails",
+            "image": "v1623431901/twotenjack_d6pouy.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 30,
+        "fields": {
+            "business": 1,
+            "special_type": 3,
+            "weekday": 1,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": "$1 off wine",
+            "beer": "$1 off beer",
+            "food": "$1 off appetizers",
+            "liquor": "$1 off liquor",
+            "image": "v1624509103/ML-Rose_ugt14q.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 31,
+        "fields": {
+            "business": 1,
+            "special_type": 3,
+            "weekday": 3,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": "$1 off wine",
+            "beer": "$1 off beer",
+            "food": "$1 off appetizers",
+            "liquor": "$1 off liquor",
+            "image": "v1624509103/ML-Rose_ugt14q.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 32,
+        "fields": {
+            "business": 1,
+            "special_type": 3,
+            "weekday": 4,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": "$1 off wine",
+            "beer": "$1 off beer & from 3:00 - close: 2-for-1 craft beers",
+            "food": "$1 off appetizers",
+            "liquor": "$1 off liquor & from 3:00 - 10: PM: 2-for-1 double-tall wells",
+            "image": "v1624509103/ML-Rose_ugt14q.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 33,
+        "fields": {
+            "business": 1,
+            "special_type": 3,
+            "weekday": 5,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": "$1 off wine",
+            "beer": "$1 off beer",
+            "food": "$1 off appetizers",
+            "liquor": "$1 off liquor",
+            "image": "v1624509103/ML-Rose_ugt14q.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 34,
+        "fields": {
+            "business": 1,
+            "special_type": 3,
+            "weekday": 6,
+            "start_time": "10:00",
+            "end_time": "14:00",
+            "wine": null,
+            "beer": null,
+            "food": null,
+            "liquor": "2-for-1 brunch drinks",
+            "image": "v1624509103/ML-Rose_ugt14q.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 34,
+        "fields": {
+            "business": 1,
+            "special_type": 3,
+            "weekday": 7,
+            "start_time": "10:00",
+            "end_time": "14:00",
+            "wine": null,
+            "beer": null,
+            "food": null,
+            "liquor": "2-for-1 brunch drinks",
+            "image": "v1624509103/ML-Rose_ugt14q.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 35,
+        "fields": {
+            "business": 15,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 select wines by the glass",
+            "beer": "$4 select beers",
+            "food": null,
+            "liquor": "$6 select cocktails",
+            "image": "v1624509154/emmysquared_qdu1pi.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 36,
+        "fields": {
+            "business": 15,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 select wines by the glass",
+            "beer": "$4 select beers",
+            "food": null,
+            "liquor": "$6 select cocktails",
+            "image": "v1624509154/emmysquared_qdu1pi.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 37,
+        "fields": {
+            "business": 15,
+            "special_type": 1,
+            "weekday": 6,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 select wines by the glass",
+            "beer": "$4 select beers",
+            "food": null,
+            "liquor": "$6 select cocktails",
+            "image": "v1624509154/emmysquared_qdu1pi.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 38,
+        "fields": {
+            "business": 15,
+            "special_type": 1,
+            "weekday": 7,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 select wines by the glass",
+            "beer": "$4 select beers",
+            "food": null,
+            "liquor": "$6 select cocktails",
+            "image": "v1624509154/emmysquared_qdu1pi.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 39,
+        "fields": {
+            "business": 11,
+            "special_type": 3,
+            "weekday": 1,
+            "start_time": "17:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "$8 Sapporo",
+            "food": "+ Hot chicken bun or pork bun",
+            "liquor": null,
+            "image": "v1624509206/otaku2_c1hdqj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 40,
+        "fields": {
+            "business": 11,
+            "special_type": 3,
+            "weekday": 2,
+            "start_time": "17:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "$8 Sapporo",
+            "food": "+ Hot chicken bun or pork bun",
+            "liquor": null,
+            "image": "v1624509206/otaku2_c1hdqj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 41,
+        "fields": {
+            "business": 11,
+            "special_type": 3,
+            "weekday": 6,
+            "start_time": "17:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "$8 Sapporo",
+            "food": "+ Hot chicken bun or pork bun",
+            "liquor": null,
+            "image": "v1624509206/otaku2_c1hdqj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 42,
+        "fields": {
+            "business": 9,
+            "special_type": 1,
+            "weekday": 6,
+            "start_time": "17:00",
+            "end_time": "18:00",
+            "wine": "$5 house wines",
+            "beer": "$5 draft beer & 2-for-1 Busch Light",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509097/treehouse_y3ubmj.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 43,
+        "fields": {
+            "business": 13,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "12:00",
+            "end_time": "20:00",
+            "wine": null,
+            "beer": "All draft beers $3",
+            "food": null,
+            "liquor": "All well drinks $4",
+            "image": "v1624509149/dukes_rqd4af.png"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 44,
+        "fields": {
+            "business": 13,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "12:00",
+            "end_time": "20:00",
+            "wine": null,
+            "beer": "All draft beers $3",
+            "food": null,
+            "liquor": "All well drinks $4",
+            "image": "v1624509149/dukes_rqd4af.png"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 45,
+        "fields": {
+            "business": 13,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "12:00",
+            "end_time": "20:00",
+            "wine": null,
+            "beer": "All draft beers $3",
+            "food": null,
+            "liquor": "All well drinks $4",
+            "image": "v1624509149/dukes_rqd4af.png"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 46,
+        "fields": {
+            "business": 13,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "12:00",
+            "end_time": "20:00",
+            "wine": null,
+            "beer": "All draft beers $3",
+            "food": null,
+            "liquor": "All well drinks $4",
+            "image": "v1624509149/dukes_rqd4af.png"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 47,
+        "fields": {
+            "business": 18,
+            "special_type": 3,
+            "weekday": 1,
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "wine": null,
+            "beer": "$8 for any slice + any draft",
+            "food": "$5 for a slice of cheese or pepperoni + a PBR or High Life",
+            "liquor": null,
+            "image": "v1624509171/fivepoints2_ifqwzo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 48,
+        "fields": {
+            "business": 18,
+            "special_type": 3,
+            "weekday": 2,
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "wine": null,
+            "beer": "$8 for any slice + any draft",
+            "food": "$5 for a slice of cheese or pepperoni + a PBR or High Life",
+            "liquor": null,
+            "image": "v1624509171/fivepoints2_ifqwzo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 49,
+        "fields": {
+            "business": 18,
+            "special_type": 3,
+            "weekday": 3,
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "wine": null,
+            "beer": "$8 for any slice + any draft",
+            "food": "$5 for a slice of cheese or pepperoni + a PBR or High Life",
+            "liquor": null,
+            "image": "v1624509171/fivepoints2_ifqwzo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 50,
+        "fields": {
+            "business": 18,
+            "special_type": 3,
+            "weekday": 4,
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "wine": null,
+            "beer": "$8 for any slice + any draft",
+            "food": "$5 for a slice of cheese or pepperoni + a PBR or High Life",
+            "liquor": null,
+            "image": "v1624509171/fivepoints2_ifqwzo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 51,
+        "fields": {
+            "business": 18,
+            "special_type": 3,
+            "weekday": 5,
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "wine": null,
+            "beer": "$8 for any slice + any draft",
+            "food": "$5 for a slice of cheese or pepperoni + a PBR or High Life",
+            "liquor": null,
+            "image": "v1624509171/fivepoints2_ifqwzo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 52,
+        "fields": {
+            "business": 14,
+            "special_type": 1,
+            "weekday": 1,
+            "start_time": "16:00",
+            "end_time": "20:00",
+            "wine": "1/2 off bottles of wine",
+            "beer": "2 for 1 beers",
+            "food": null,
+            "liquor": "2 for 1 well drinks",
+            "image": "v1624509212/rosemary_ijrzbx.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 53,
+        "fields": {
+            "business": 14,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "16:00",
+            "end_time": "20:00",
+            "wine": "1/2 off bottles of wine",
+            "beer": "2 for 1 beers",
+            "food": null,
+            "liquor": "2 for 1 well drinks",
+            "image": "v1624509212/rosemary_ijrzbx.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 54,
+        "fields": {
+            "business": 14,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "16:00",
+            "end_time": "20:00",
+            "wine": "1/2 off bottles of wine",
+            "beer": "2 for 1 beers",
+            "food": null,
+            "liquor": "2 for 1 well drinks",
+            "image": "v1624509212/rosemary_ijrzbx.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 55,
+        "fields": {
+            "business": 14,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "20:00",
+            "wine": "1/2 off bottles of wine",
+            "beer": "2 for 1 beers",
+            "food": null,
+            "liquor": "2 for 1 well drinks",
+            "image": "v1624509212/rosemary_ijrzbx.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 56,
+        "fields": {
+            "business": 19,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "1/2 off drafts",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509237/villagepub2_iomtcs.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 57,
+        "fields": {
+            "business": 19,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "1/2 off drafts",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509237/villagepub2_iomtcs.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 58,
+        "fields": {
+            "business": 19,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "1/2 off drafts",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509237/villagepub2_iomtcs.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 59,
+        "fields": {
+            "business": 19,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "1/2 off drafts",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509237/villagepub2_iomtcs.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 60,
+        "fields": {
+            "business": 19,
+            "special_type": 1,
+            "weekday": 1,
+            "start_time": "16:00",
+            "end_time": "22:00",
+            "wine": null,
+            "beer": null,
+            "food": null,
+            "liquor": "1/2 off signature mule cocktails",
+            "image": "v1624509237/villagepub2_iomtcs.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 61,
+        "fields": {
+            "business": 20,
+            "special_type": 1,
+            "weekday": 1,
+            "start_time": "16:00",
+            "end_time": "19:00",
+            "wine": "$5 house wines",
+            "beer": "$3 domestic beers & $4 drafts",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509176/greenhouse_gywcra.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 62,
+        "fields": {
+            "business": 20,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "16:00",
+            "end_time": "19:00",
+            "wine": "$5 house wines",
+            "beer": "$3 domestic beers & $4 drafts",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509176/greenhouse_gywcra.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 63,
+        "fields": {
+            "business": 20,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "16:00",
+            "end_time": "19:00",
+            "wine": "$5 house wines",
+            "beer": "$3 domestic beers & $4 drafts",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509176/greenhouse_gywcra.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 64,
+        "fields": {
+            "business": 20,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "19:00",
+            "wine": "$5 house wines",
+            "beer": "$3 domestic beers & $4 drafts",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509176/greenhouse_gywcra.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 65,
+        "fields": {
+            "business": 20,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "16:00",
+            "end_time": "19:00",
+            "wine": "$5 house wines",
+            "beer": "$3 domestic beers & $4 drafts",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509176/greenhouse_gywcra.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 66,
+        "fields": {
+            "business": 20,
+            "special_type": 1,
+            "weekday": 6,
+            "start_time": "16:00",
+            "end_time": "19:00",
+            "wine": "$5 house wines",
+            "beer": "$3 domestic beers & $4 drafts",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509176/greenhouse_gywcra.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 67,
+        "fields": {
+            "business": 20,
+            "special_type": 1,
+            "weekday": 7,
+            "start_time": "10:00",
+            "end_time": "1:00",
+            "wine": "$5 house wines",
+            "beer": "$3 domestic beers & $4 drafts",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509176/greenhouse_gywcra.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 68,
+        "fields": {
+            "business": 10,
+            "special_type": 3,
+            "weekday": 2,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$2 off wine",
+            "beer": "$2 off beer",
+            "food": "$3-$7 select bites",
+            "liquor": "$8 select cocktails",
+            "image": "v1624509082/avo13_gki1ma.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 69,
+        "fields": {
+            "business": 10,
+            "special_type": 3,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$2 off wine",
+            "beer": "$2 off beer",
+            "food": "$3-$7 select bites",
+            "liquor": "$8 select cocktails",
+            "image": "v1624509082/avo13_gki1ma.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 70,
+        "fields": {
+            "business": 10,
+            "special_type": 3,
+            "weekday": 5,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$2 off wine",
+            "beer": "$2 off beer",
+            "food": "$3-$7 select bites",
+            "liquor": "$8 select cocktails",
+            "image": "v1624509082/avo13_gki1ma.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 71,
+        "fields": {
+            "business": 21,
+            "special_type": 1,
+            "weekday": 1,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$4 drafts(under 8% ABV)",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509226/tnbrewworks_ukqwqd.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 72,
+        "fields": {
+            "business": 21,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$4 drafts(under 8% ABV)",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509226/tnbrewworks_ukqwqd.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 73,
+        "fields": {
+            "business": 21,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$4 drafts(under 8% ABV) & from 3:00 PM - close: 2-for-1 craft beers",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509226/tnbrewworks_ukqwqd.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 74,
+        "fields": {
+            "business": 21,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$4 drafts(under 8% ABV)",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509226/tnbrewworks_ukqwqd.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 75,
+        "fields": {
+            "business": 21,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "15:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$4 drafts(under 8% ABV)",
+            "food": null,
+            "liquor": "$4 well liquor",
+            "image": "v1624509226/tnbrewworks_ukqwqd.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 76,
+        "fields": {
+            "business": 6,
+            "special_type": 3,
+            "weekday": 1,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 wines",
+            "beer": null,
+            "food": "$1.50-$5 select bites",
+            "liquor": "$8 martinis",
+            "image": "v1624509109/caferoze_ut3opw.webp"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 77,
+        "fields": {
+            "business": 6,
+            "special_type": 3,
+            "weekday": 2,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 wines",
+            "beer": null,
+            "food": "$1.50-$5 select bites",
+            "liquor": "$8 martinis",
+            "image": "v1624509109/caferoze_ut3opw.webp"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 78,
+        "fields": {
+            "business": 6,
+            "special_type": 3,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 wines",
+            "beer": null,
+            "food": "$1.50-$5 select bites",
+            "liquor": "$8 martinis",
+            "image": "v1624509109/caferoze_ut3opw.webp"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 79,
+        "fields": {
+            "business": 6,
+            "special_type": 3,
+            "weekday": 5,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": "$5 wines",
+            "beer": null,
+            "food": "$1.50-$5 select bites",
+            "liquor": "$8 martinis",
+            "image": "v1624509109/caferoze_ut3opw.webp"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 80,
+        "fields": {
+            "business": 22,
+            "special_type": 1,
+            "weekday": 1,
+            "start_time": "15:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "2-for-1 beers",
+            "food": null,
+            "liquor": "2-for-1 well drinks",
+            "image": "v1624509191/mickeys_qx7dex.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 81,
+        "fields": {
+            "business": 22,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "15:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "2-for-1 beers",
+            "food": null,
+            "liquor": "2-for-1 well drinks",
+            "image": "v1624509191/mickeys_qx7dex.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 82,
+        "fields": {
+            "business": 22,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "15:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "2-for-1 beers",
+            "food": null,
+            "liquor": "2-for-1 well drinks",
+            "image": "v1624509191/mickeys_qx7dex.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 83,
+        "fields": {
+            "business": 22,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "15:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "2-for-1 beers",
+            "food": null,
+            "liquor": "2-for-1 well drinks",
+            "image": "v1624509191/mickeys_qx7dex.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 84,
+        "fields": {
+            "business": 22,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "15:00",
+            "end_time": "19:00",
+            "wine": null,
+            "beer": "2-for-1 beers",
+            "food": null,
+            "liquor": "2-for-1 well drinks",
+            "image": "v1624509191/mickeys_qx7dex.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 85,
+        "fields": {
+            "business": 23,
+            "special_type": 1,
+            "weekday": 1,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$1 off beer + shot combos and $2 Budweisers",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509145/dinos_nmbbge.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 86,
+        "fields": {
+            "business": 23,
+            "special_type": 1,
+            "weekday": 2,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$1 off beer + shot combos and $2 Budweisers",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509145/dinos_nmbbge.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 87,
+        "fields": {
+            "business": 23,
+            "special_type": 1,
+            "weekday": 3,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$1 off beer + shot combos and $2 Budweisers",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509145/dinos_nmbbge.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 88,
+        "fields": {
+            "business": 23,
+            "special_type": 1,
+            "weekday": 4,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$1 off beer + shot combos and $2 Budweisers",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509145/dinos_nmbbge.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.happyhour",
+        "pk": 89,
+        "fields": {
+            "business": 23,
+            "special_type": 1,
+            "weekday": 5,
+            "start_time": "16:00",
+            "end_time": "18:00",
+            "wine": null,
+            "beer": "$1 off beer + shot combos and $2 Budweisers",
+            "food": null,
+            "liquor": null,
+            "image": "v1624509145/dinos_nmbbge.jpg"
         }
     }
 ]

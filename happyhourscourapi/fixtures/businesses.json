@@ -115,7 +115,7 @@
             "patio": true,
             "location": 7,
             "trivia": false,
-            "image": ""
+            "image": "v1624509082/avo13_gki1ma.jpg"
         }
     },
     {
@@ -127,7 +127,7 @@
             "patio": true,
             "location": 4,
             "trivia": false,
-            "image": ""
+            "image": "v1624509206/otaku2_c1hdqj.jpg"
         }
     },
     {
@@ -139,7 +139,7 @@
             "patio": true,
             "location": 1,
             "trivia": false,
-            "image": ""
+            "image": "v1624509242/VinylTap_pspckl.jpg"
         }
     },
     {
@@ -151,7 +151,7 @@
             "patio": true,
             "location": 1,
             "trivia": false,
-            "image": ""
+            "image": "v1624509149/dukes_rqd4af.png"
         }
     },
     {
@@ -160,6 +160,114 @@
         "fields": {
             "name": "Rosemary & Beauty Queen",
             "business_type": 1,
+            "patio": true,
+            "location": 1,
+            "trivia": false,
+            "image": "v1624509212/rosemary_ijrzbx.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 15,
+        "fields": {
+            "name": "Emmy Squared",
+            "business_type": 2,
+            "patio": true,
+            "location": 2,
+            "trivia": false,
+            "image": "v1624509154/emmysquared_qdu1pi.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 16,
+        "fields": {
+            "name": "The Sutler",
+            "business_type": 1,
+            "patio": true,
+            "location": 5,
+            "trivia": false,
+            "image": "v1624509221/sutler_bf5raw.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 17,
+        "fields": {
+            "name": "Etch",
+            "business_type": 2,
+            "patio": false,
+            "location": 4,
+            "trivia": false,
+            "image": "v1624509158/etch_ifzhvc.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 18,
+        "fields": {
+            "name": "Five Points Pizza (East)",
+            "business_type": 1,
+            "patio": false,
+            "location": 1,
+            "trivia": false,
+            "image": "v1624509171/fivepoints2_ifqwzo.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 19,
+        "fields": {
+            "name": "Riverside Village Pub",
+            "business_type": 1,
+            "patio": true,
+            "location": 1,
+            "trivia": false,
+            "image": "v1624509237/villagepub2_iomtcs.jpg"
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 20,
+        "fields": {
+            "name": "Greenhouse Bar",
+            "business_type": 1,
+            "patio": true,
+            "location": 3,
+            "trivia": false,
+            "image": ""
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 21,
+        "fields": {
+            "name": "Tennessee Brew Works",
+            "business_type": 4,
+            "patio": true,
+            "location": 9,
+            "trivia": false,
+            "image": ""
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 22,
+        "fields": {
+            "name": "Mickey's Tavern",
+            "business_type": 1,
+            "patio": true,
+            "location": 1,
+            "trivia": false,
+            "image": ""
+        }
+    },
+    {
+        "model": "happyhourscourapi.business",
+        "pk": 23,
+        "fields": {
+            "name": "Dino's",
+            "business_type": 3,
             "patio": true,
             "location": 1,
             "trivia": false,
