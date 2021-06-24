@@ -15,6 +15,7 @@ cloudinary = "*"
 dj3-cloudinary-storage = "*"
 gunicorn = "*"
 django-on-heroku = "*"
+django-environ = "*"
 
 [dev-packages]
 
