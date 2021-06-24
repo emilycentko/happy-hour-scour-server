@@ -4,6 +4,7 @@ from happyhourscourapi.views import HappyHourView, Profile, FavoriteView, Specia
 from django.conf.urls import include
 from django.urls import path
 from happyhourscourapi.views import register_user, login_user
+from django.contrib import admin
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'happyhours', HappyHourView, 'happyhour')
@@ -18,4 +19,5 @@ urlpatterns = [
     path('register', register_user),
     path('login', login_user),
     path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
+    path('admin/', admin.site.url)
 ]
