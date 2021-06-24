@@ -19,7 +19,7 @@
         "pk": 3,
         "model": "happyhourscourapi.favorite",
         "fields": {
-            "customer": 2,
+            "customer": 1,
             "happy_hour": 10
         }
     }
